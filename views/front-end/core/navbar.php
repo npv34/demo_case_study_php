@@ -17,11 +17,25 @@
                     <a class="nav-link" href="product.html">Product</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cart.html">Cart</a>
+                    <a class="nav-link" href="index.php?page=cart">Cart</a>
                 </li>
+                <?php if ($_SESSION['userLogin'] == null): ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="index.php?page=login">Login</a>
                 </li>
+                <?php else: ?>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <?php echo $_SESSION['userLogin'] ?>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Quan ly san pham</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </div>
+                    </li>
+                <?php endif; ?>
             </ul>
 
             <form class="form-inline my-2 my-lg-0">
@@ -33,7 +47,7 @@
                         </button>
                     </div>
                 </div>
-                <a class="btn btn-success btn-sm ml-3" href="cart.html">
+                <a class="btn btn-success btn-sm ml-3" href="index.php?page=cart">
                     <i class="fa fa-shopping-cart"></i> Cart
                     <span class="badge badge-light">3</span>
                 </a>

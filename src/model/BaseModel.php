@@ -20,4 +20,10 @@ class BaseModel
         $stmt = $this->conn->query($sql);
         return $stmt->fetchAll(); // array
     }
+
+    function findById($id) {
+        $sql = "SELECT * FROM $this->table WHERE id = $id";
+        $stmt = $this->conn->query($sql);
+        return $stmt->fetch();
+    }
 }

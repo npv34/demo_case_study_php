@@ -8,4 +8,6 @@ class ProductModel extends BaseModel
     {
         parent::__construct($this->table);
     }
+
+
 }

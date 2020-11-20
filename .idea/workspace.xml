@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e8872c7-0d09-4494-93ca-fb5df90a6892" name="Default Changelist" comment="" />
+    <list default="true" id="3e8872c7-0d09-4494-93ca-fb5df90a6892" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/products/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/products/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shop_my_pham.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop_my_pham.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/front-end/core/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front-end/core/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/front-end/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front-end/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -19,12 +35,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kUKKKJPdgHfq86W4uXH9j5Fyot" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,12 +57,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605749667525</updated>
-      <workItem from="1605749669412" duration="2183000" />
+      <workItem from="1605749669412" duration="2938000" />
+      <workItem from="1605835183341" duration="3715000" />
     </task>
     <servers />
   </component>
@@ -59,14 +74,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="82" key="NewPhpClassDialog" timestamp="1605750856361">
+    <state x="327" y="98" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605835395021">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="444" y="82" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1605750856361" />
-    <state x="466" y="351" key="NewPhpFileDialog" timestamp="1605751460265">
+    <state x="327" y="98" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605835395021" />
+    <state x="444" y="82" key="NewPhpClassDialog" timestamp="1605837412258">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="466" y="351" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605751460265" />
+    <state x="444" y="82" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1605837412258" />
+    <state x="466" y="351" key="NewPhpFileDialog" timestamp="1605838766230">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="466" y="351" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605838766230" />
     <state width="900" height="642" key="javadoc.popup" timestamp="1605750332887">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
